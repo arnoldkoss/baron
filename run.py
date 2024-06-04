@@ -10,6 +10,16 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/prislista")
+def prislista():
+    return render_template("prislista.html")
+
+
+@app.route("/kontakt")
+def kontakt():
+    return render_template("kontakt.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
