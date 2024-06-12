@@ -18,3 +18,55 @@
 .mainmessage {
     text-align: center;
 }
+
+.price-list {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.price-list h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.price-section {
+    margin-bottom: 20px;
+}
+
+.price-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.price-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.price-section li {
+    font-size: 1.2em;
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}

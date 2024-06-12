@@ -1,4 +1,45 @@
 {% extends "base.html" %}
 {% block content %}
-    <h3>{{ page_title }}</h3>
+    
+<div class="price-list">
+    <h2>Prislista</h2>
+    <div class="price-section">
+        <h3>Herrklippningar</h3>
+        <ul>
+            <li>Klassisk Klippning - 349 SEK</li>
+            <li>Modern Stil - 349 SEK</li>
+            <li>Buzz Cut - 349 SEK</li>
+        </ul>
+    </div>
+    <div class="price-section">
+        <h3>Damklippningar</h3>
+        <ul>
+            <li>Kort Stil - 399 SEK</li>
+            <li>Medellångt - 399 SEK</li>
+            <li>Lång Stil - 399 SEK</li>
+        </ul>
+    </div>
+    <div class="price-section">
+        <h3>Barnklippningar</h3>
+        <ul>
+            <li>Barn (Under 12) - 249 SEK</li>
+        </ul>
+    </div>
+    <div class="price-section">
+        <h3>Skäggtjänster</h3>
+        <ul>
+            <li>Skäggtrimning - 249 SEK</li>
+            <li>Lyxrakning - 249 SEK</li>
+        </ul>
+    </div>
+    <div class="price-section">
+        <h3>Paketerbjudanden</h3>
+        <ul>
+            <li>Herrklippning + Skäggtrimning med barberkniv, Hårtvätt och Vaxning (1 timme) - 599 SEK</li>
+        </ul>
+    </div>
+    <div class="image-section">
+        <img src="/static/img/pex.jpg" alt="Bild av salongen">
+    </div>
+</div>
 {% endblock %}
